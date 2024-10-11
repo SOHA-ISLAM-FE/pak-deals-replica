@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .overflow-overlay {
+    overflow: overlay;
+  }
+  @media (max-width: 971px) {
+    .w-webkit-fill {
+      width: -webkit-fill-available;
+    }
+  }
+  .card-shadow-box {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
